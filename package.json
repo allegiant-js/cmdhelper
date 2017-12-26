@@ -11,7 +11,7 @@
     "homepage": "https://github.com/allegiant-js/cmdhelper#readme",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/allegiant-js/cmdhelper/cmdhelper.git"
+        "url": "git+https://github.com/allegiant-js/cmdhelper.git"
     },
     "preferGlobal": true,
     "main": "index.js",

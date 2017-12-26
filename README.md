@@ -21,4 +21,4 @@ This is a preliminary release, api breakage may happen.
 
 Copyright &copy; 2017 Allegiant. Distributed under the terms of the MIT License, see [LICENSE](https://github.com/allegiant-js/cmdhelper/blob/master/LICENSE)
 
-Availble via [npm](https://www.npmjs.com/org/allegiant/cmdhelper) or [github](https://github.com/orgs/allegiant-js/cmdhelper).
+Availble via [npm](https://www.npmjs.com/org/allegiant/cmdhelper) or [github](https://github.com/allegiant-js/cmdhelper).
