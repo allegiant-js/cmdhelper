@@ -1,0 +1,31 @@
+{
+    "name": "@allegiant/cmdhelper",
+    "version": "0.0.1",
+    "description": "Simple command line argument parser library.",
+    "author": "echopoint <echopoint@tutanota.com>",
+    "contributors": [],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/allegiant-js/cmdhelper/issues"
+    },
+    "homepage": "https://github.com/allegiant-js/cmdhelper#readme",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/allegiant-js/cmdhelper/cmdhelper.git"
+    },
+    "preferGlobal": true,
+    "main": "index.js",
+    "engine": {
+        "node": ">= 7.6"
+    },
+    "scripts": {
+        "lint": "eslint index.js",
+        "test": "tape test/*.js",
+        "coverage": "tape test/*.js --coverage --coverage-report=lcov"
+    },
+    "devDependencies": {
+        "eslint": "^4.12.1",
+        "jsdoc": "^3.5.5",
+        "tape": "^4.8.0"
+    }
+}
