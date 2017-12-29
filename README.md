@@ -1,7 +1,20 @@
 # cmdhelper
 
-Simple command line argument parser library.
+> Simple command line argument parser library.
+>> There be 🐲 here! The API and functionality are being cemented, anything before a 1.0.0 release is subject to change.
 
+[![Npm Version](https://img.shields.io/npm/v/@allegiant/cmdhelper.svg)](https://www.npmjs.com/package/@allegiant/cmdhelper)
+[![Build Status](https://travis-ci.org/allegiant-js/cmdhelper.svg?branch=master)](https://travis-ci.org/allegiant-js/cmdhelper.svg?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/allegiant-js/cmdhelper/badge.svg?branch=master)](https://coveralls.io/github/allegiant-js/cmdhelper?branch=master)
+
+
+## Installation
+
+```
+npm install @allegiant/cmdhelper --save
+```
+
+## Usage
 ```js
 const cmdHelper = require('@allegiant/cmdhelper');
 const SETTINGS = cmdHelper.process(params => {
@@ -13,10 +26,6 @@ const SETTINGS = cmdHelper.process(params => {
 ```
 
 SETTINGS will now hold the two properties, 'host' and 'port'. These are available to the command line as --host "hostname" and --port "port number" respectively.
-
-
-#### Note
-This is a preliminary release, api breakage may happen.
 
 
 ### Copyright & License
